@@ -1,0 +1,95 @@
+
+body, html {
+    height: 100%
+  }
+  
+  .bgimg {
+    
+    background-color:#fcbbbb;
+    
+    height: 100%;
+    background-position: center;
+   
+    background-size: cover;
+ 
+    position: relative;
+   
+    color: white;
+    
+    font-family: 'Inter', sans-serif;
+    
+    font-size: 15px;
+  }
+  
+
+  .topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+  
+  /* Position text in the bottom-left corner */
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+  }
+  
+  /* Position text in the middle */
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+    
+  }
+  
+  /* Style the <hr> element */
+  hr {
+    margin: auto;
+    width: 40%;
+  }
+
+  h1{
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+   
+  }
+
+  .logo{
+    color: white;
+    font-size: 65px;
+    line-height: 80px;
+    padding: 0 120px;
+    font-family: 'Mouse Memoirs', sans-serif;
+  }
+
+ i{
+    float:right;
+    font-size: 35px;
+    margin-right: 25px;
+    margin-top: 25px;
+    
+ }
+ a{
+    text-decoration: none;
+    color: white;
+ }
+ h2{
+    font-size: 20px;
+    position: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+ }
+
+ button{
+    background-color:#f4d6d6 ;
+    margin-right: 10px;
+ }
+
+ 
+
